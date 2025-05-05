@@ -20,7 +20,7 @@ CNN_ShoeBootSandal_Classification/
 
 ├── app.py # Streamlit app for prediction
 
-├── model_training.py # Training and evaluation script
+├── Model.ipynb # Training and evaluation script
 
 ├── README.md # Project description (this file)
 
