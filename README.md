@@ -1,10 +1,10 @@
-# 🥿👠👢 Shoe / Sandal / Boot Image Classification
+# Shoe / Sandal / Boot Image Classification
 
 This deep learning project classifies footwear images into three categories: **shoe**, **sandal**, or **boot**. The model is built with TensorFlow/Keras and deployed through a simple **Streamlit web app** for interactive image predictions.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 CNN_ShoeBootSandal_Classification/
 
@@ -28,7 +28,7 @@ CNN_ShoeBootSandal_Classification/
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 - Python
 - TensorFlow / Keras
@@ -39,7 +39,7 @@ CNN_ShoeBootSandal_Classification/
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - Input image size: **(136x102)**
 - Normalized pixel values to range [0, 1]
@@ -49,50 +49,27 @@ CNN_ShoeBootSandal_Classification/
   - Conv2D → MaxPooling
   - Flatten → Dense → Dropout → Output layer (softmax)
 
-Model saved in HDF5 format:
-
-```python
-model.save("shoe_model_complete.h5")
-📊 Evaluation
-Accuracy and loss plots
-
-Confusion matrix
-
-Precision, recall, F1-score (Classification Report)
-
-🌐 Streamlit Web App
-Launch the app locally using:
 
 
-streamlit run app.py
-How it works:
+- Confusion matrix
 
-Upload an image (JPG or PNG)
+- Precision, recall, F1-score (Classification Report)
 
-The model processes and classifies it
+### Streamlit Web App
+- Launch the app locally using:
 
-The result is shown as: BOOT, SANDAL, or SHOE
+- streamlit run app.py
+- How it works:
 
-🔧 Requirements
-Install the necessary libraries:
+- Upload an image (JPG or PNG)
 
+- The model processes and classifies it
 
-pip install -r requirements.txt
-requirements.txt contents:
-
-
-tensorflow
-numpy
-Pillow
-scikit-learn
-matplotlib
-seaborn
-streamlit
-📌 Notes
-The image folders should be structured like:
+- The result is shown as: BOOT, SANDAL, or SHOE
 
 
-dataset/
+
+* dataset/
   ├── boot/
   ├── sandal/
   └── shoe/
@@ -100,6 +77,7 @@ Class labels follow this order (via LabelEncoder):
 
 
 ['boot', 'sandal', 'shoe']
-💬 Example
-Uploaded Image	Prediction
-(User uploads a photo)	SHOE
+- Example
+* Uploaded Image	Prediction
+(User uploads a photo)
+*	SHOE
