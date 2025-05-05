@@ -8,12 +8,19 @@ This deep learning project classifies footwear images into three categories: **s
 
 CNN_ShoeBootSandal_Classification/
 ├── dataset/ # Training data (organized by class)
+
 │ ├── boot/
+
 │ ├── sandal/
+
 │ └── shoe/
+
 ├── shoe_model_complete.h5 # Trained CNN model
+
 ├── app.py # Streamlit app for prediction
+
 ├── model_training.py # Training and evaluation script
+
 ├── README.md # Project description (this file)
 
 yaml
