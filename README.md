@@ -7,6 +7,7 @@ This deep learning project classifies footwear images into three categories: **s
 ## 📁 Project Structure
 
 CNN_ShoeBootSandal_Classification/
+
 ├── dataset/ # Training data (organized by class)
 
 │ ├── boot/
@@ -23,9 +24,7 @@ CNN_ShoeBootSandal_Classification/
 
 ├── README.md # Project description (this file)
 
-yaml
-Kopyala
-Düzenle
+
 
 ---
 
