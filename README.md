@@ -57,9 +57,7 @@ Precision, recall, F1-score (Classification Report)
 🌐 Streamlit Web App
 Launch the app locally using:
 
-bash
-Kopyala
-Düzenle
+
 streamlit run app.py
 How it works:
 
@@ -72,15 +70,11 @@ The result is shown as: BOOT, SANDAL, or SHOE
 🔧 Requirements
 Install the necessary libraries:
 
-bash
-Kopyala
-Düzenle
+
 pip install -r requirements.txt
 requirements.txt contents:
 
-nginx
-Kopyala
-Düzenle
+
 tensorflow
 numpy
 Pillow
@@ -91,17 +85,14 @@ streamlit
 📌 Notes
 The image folders should be structured like:
 
-Kopyala
-Düzenle
+
 dataset/
   ├── boot/
   ├── sandal/
   └── shoe/
 Class labels follow this order (via LabelEncoder):
 
-css
-Kopyala
-Düzenle
+
 ['boot', 'sandal', 'shoe']
 💬 Example
 Uploaded Image	Prediction
